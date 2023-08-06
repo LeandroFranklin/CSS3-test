@@ -1,6 +1,5 @@
 /*
 Modelo de caixa
-*/
 
 .conteudo{
     border: 1px solid red;
@@ -16,3 +15,26 @@ Modelo de caixa
     margin-left: 20px;
     margin-bottom: 20px;
 }
+
+*/
+
+/*Elementos flutuantes
+*/
+
+.conteudo{
+    background-color: blue;
+    border: 1px solid gray;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+}
+
+/*.conteudo1{
+    background-color: red;
+    border: 1px solid gray;
+    width: 150px;
+    height: 150px;
+    float: right;
+}
+*/
