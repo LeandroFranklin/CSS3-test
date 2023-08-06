@@ -30,6 +30,10 @@ Modelo de caixa
     margin: 10px;
 }
 
+.clear{
+    clear: right;
+}
+
 /*.conteudo1{
     background-color: red;
     border: 1px solid gray;
