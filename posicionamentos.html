@@ -15,6 +15,7 @@
                 width: 800px;
                 margin: 10px auto;
                 padding: 10px;
+                position: relative;
             }
 
             h1{
@@ -35,6 +36,21 @@
 
             /*no relative também posso usar valores negativos*/
 
+            .absolute{
+                border: 1px solid red;
+                background-color: #f2f2f2;
+                position: absolute;
+                top: 80px;
+                right: 20px;
+            }
+
+            /*embora p que está usando a classe absoute seja filha da div conteiner
+            p irá sair do escopo de conteiner por conteiner static e não relativo. Devido
+            a isso, p irá se adequar a uma tag block relative, ou seja, o body */
+
+            /*o fixed possui o mesmo comportamento do de top,botoom... quando usado, ele não
+            sai da tela quando é utilizado o scroll*/
+
         </style>
 
     </head>
@@ -53,7 +69,7 @@
                 risus.
             </p>
 
-            <p class="relative">
+            <p class="absolute">
                 P2 Loremm ipsum dolor sit amet,
                 consectetur adipiscing elit. Proin
                 at porta nibh. Ut posuere ex a
